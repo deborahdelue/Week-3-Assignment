@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- INFO - this information allows Bootstrap to make the site responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us</title>
+    <!-- INFO - this is the link to the locally installed Bootstrap files -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  </head>
+  <body>
+    <!-- INFO - this information is for the top navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container">
+        <a class="navbar-brand" href="#">CCRU</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" href="about.html">About Us</a>
+            <a class="nav-link" href="contact.html">Contact Us</a>
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+          <!-- INFO First Column -->
+          <div class="col">
+            <h2>Thank you for visiting.</h2>
+            <img src="carBanner.png" class="img-fluid mb-4" a bunch of cars>
+          </div>
+    
+          <!-- INFO Second Column -->
+            <div class="col-md-8">
+                <div class="container bg-success">
+                    <h2 class="mb-4">Get a quote.</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+            
+                            <label for="comment">Tell us about your dream car. We'll find it and send you a quote.</label>
+                            <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+                        
+                            <button type="submit" class="btn btn-primary my-4">Submit</button>
+                          </form>   
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+<!-- INFO - this is my footer content - styled with Bootstrap to be full width with light centered text on a dark background -->
+<div class="container-fluid">
+    <footer class="text-center mt-4 bg-dark text-light p-3">
+      <p>&copy; 2024 My Company. All rights reserved.</p>
+    </footer>
+</div>
+
+<!-- INFO - this is the script needed to run Bootstrap 5.3 when installed locally -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+  </body>
+</html>

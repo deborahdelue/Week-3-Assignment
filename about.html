@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- INFO - this information allows Bootstrap to make the site responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us</title>
+    <!-- INFO - this is the link to the locally installed Bootstrap files -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  </head>
+  <body>
+    <!-- INFO - this information is for the top navigation bar with a gray background and light text, the hamburger menu will appear at a smaller size -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container">
+        <a class="navbar-brand" href="#">CCRU</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" href="about.html">About Us</a>
+            <a class="nav-link" href="contact.html">Contact Us</a>
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <!-- INFO - this section contains 2 columns each with a table, the columms will stack when at a samller size -->
+    <div class="container text-center pt-4">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- INFO Content for the first column -->
+            <h2 class="fw-bold text-success">Sales Department</h2>
+            <p>To receive a quote contact our sales department.</p>
+                <table class="table table-success table-striped">
+                    <thead>
+                        <tr>
+                          <th>First Name</th>
+                          <th>Last Name</th>
+                          <th>Extension #</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>John</td>
+                          <td>Smith</td>
+                          <td>1122</td>
+                        </tr>
+                        <tr>
+                          <td>Jill</td>
+                          <td>Jones</td>
+                          <td>1133</td>
+                        </tr>
+                        <tr>
+                          <td>Tim</td>
+                          <td>Long</td>
+                          <td>1144</td>
+                        </tr>
+                      </tbody>
+                </table>
+          </div>
+          <div class="col-md-6">
+            <!-- INFO - Content for the second column -->
+            <h2 class="fw-bold text-success">Service Department</h2>
+            <p>To schedule an appointment contact our service department.</p>
+            <table class="table table-success table-striped">
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Extension #</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Fran</td>
+                      <td>Franklin</td>
+                      <td>2233</td>
+                    </tr>
+                    <tr>
+                      <td>Howard</td>
+                      <td>Hill</td>
+                      <td>2244</td>
+                    </tr>
+                    <tr>
+                      <td>Phil</td>
+                      <td>Paul</td>
+                      <td>2255</td>
+                    </tr>
+                  </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    
+<!-- INFO - this is my footer content styled full width with light centered text on a dark background -->
+<div class="container-fluid">
+    <footer class="text-center mt-4 bg-dark text-light p-3">
+      <p>&copy; 2024 My Company. All rights reserved.</p>
+    </footer>
+</div>
+
+
+<!-- INFO - this is the script needed to run Bootstrap 5.3 when installed locally -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+  </body>
+</html>

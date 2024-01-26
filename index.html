@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- INFO - this information allows Bootstrap to make the site responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page</title>
+    <!-- INFO - this is the link to the locally installed Bootstrap files -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  </head>
+  <body>
+    <!-- INFO - this information is for the top navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container">
+        <a class="navbar-brand" href="#">CCRU</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" href="about.html">About Us</a>
+            <a class="nav-link" href="contact.html">Contact Us</a>
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+<!-- INFO - this section is the welcome page -->
+    <div class="container">
+        <div class="row">
+          <!-- INFO First Column - includes banner image -->
+          <div class="col-md-9 mt-4">
+            <h2>Classic Cars R Us</h2>
+            <p>We love classic cars.</p>
+            <img src="carBanner.png" class="img-fluid" a bunch of cars>
+          </div>
+    
+          <!-- INFO Second Column (Sidebar) -->
+          <div class="col-md-3 mt-4">
+            <h2 class="text-end">Welcome to our home page</h2>
+            <p class="text-end">Here are some helpful links.</p>
+            <ul class="list-group">
+                <a href="http://google.com" class="list-group-item list-group-item-action active" aria-current="true">
+                    Google
+                  </a>
+                <a href="http://appliedviz.com" class="list-group-item list-group-item-action">AVT</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>  
+
+<!-- INFO - this is my footer content - styled with Bootstrap to be full width with light centered text on a dark background -->
+<div class="container-fluid">
+    <footer class="text-center mt-4 bg-dark text-light p-3">
+      <p>&copy; 2024 My Company. All rights reserved.</p>
+    </footer>
+</div>
+
+<!-- INFO - this is the script needed to run Bootstrap 5.3 when installed locally -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+  </body>
+</html>
